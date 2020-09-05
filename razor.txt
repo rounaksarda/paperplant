@@ -1,0 +1,15 @@
+<script
+    src="https://checkout.razorpay.com/v1/checkout.js"
+    data-key="rzp_test_nM5VWM1iiyUfvS" 
+    data-amount="<?php echo $row['cost']; ?>00" 
+    data-currency="INR"
+    data-buttontext="Pay"
+    data-name="<?php echo $row['name']; ?>"
+    data-description="<?php echo $row['description']; ?>"
+    data-prefill.name="rounak"
+    data-prefill.email="<?php echo $_SESSION['email']; ?>"
+    data-theme.color="#F37254"
+
+    
+
+></script>
